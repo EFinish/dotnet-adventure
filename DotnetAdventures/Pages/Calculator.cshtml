@@ -1,0 +1,21 @@
+@page
+@model DotnetAdventures.Pages.CalculatorModel
+
+<h2>Calculator</h2>
+
+<form method="post">
+    <input type="number" asp-for="Number1" required />
+    <select asp-for="Operation" required>
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <input type="number" asp-for="Number2" required />
+    <button type="submit">Calculate</button>
+</form>
+
+@if (Model.Result != null)
+{
+    <p>The result is @Model.Result</p>
+}
