@@ -1,0 +1,15 @@
+/home/everett/development/dotnet-adventure/DotnetAdventures/bin/Debug/net7.0/DotnetAdventures
+/home/everett/development/dotnet-adventure/DotnetAdventures/bin/Debug/net7.0/DotnetAdventures.deps.json
+/home/everett/development/dotnet-adventure/DotnetAdventures/bin/Debug/net7.0/DotnetAdventures.runtimeconfig.json
+/home/everett/development/dotnet-adventure/DotnetAdventures/bin/Debug/net7.0/DotnetAdventures.dll
+/home/everett/development/dotnet-adventure/DotnetAdventures/bin/Debug/net7.0/DotnetAdventures.pdb
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.csproj.AssemblyReference.cache
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.GeneratedMSBuildEditorConfig.editorconfig
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.AssemblyInfoInputs.cache
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.AssemblyInfo.cs
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.csproj.CoreCompileInputs.cache
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.dll
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/refint/DotnetAdventures.dll
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.pdb
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/DotnetAdventures.genruntimeconfig.cache
+/home/everett/development/dotnet-adventure/DotnetAdventures/obj/Debug/net7.0/ref/DotnetAdventures.dll
