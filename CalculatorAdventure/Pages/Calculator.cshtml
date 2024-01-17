@@ -1,5 +1,6 @@
 @page
-@model DotnetAdventures.Pages.CalculatorModel
+@model CalculatorAdventure.Pages.CalculatorModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <h2>Calculator</h2>
 
@@ -8,7 +9,7 @@
     <select asp-for="Operation" required>
         <option value="add">+</option>
         <option value="subtract">-</option>
-        <option value="multiply">*</option>
+        <option value="multiply">x</option>
         <option value="divide">/</option>
     </select>
     <input type="number" asp-for="Number2" required />

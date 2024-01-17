@@ -1,15 +1,20 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace DotnetAdventures.Pages
+namespace CalculatorAdventure.Pages
 {
     public class CalculatorModel : PageModel
     {
+        [BindProperty]
         public double? Number1 { get; set; }
+        [BindProperty]
         public double? Number2 { get; set; }
-        public string Operation { get; set; }
-        public double Result { get; set; }
+        [BindProperty]
+        public string? Operation { get; set; } = "add";
+        [BindProperty]
+        public double? Result { get; set; }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             switch (Operation)
             {
@@ -27,9 +32,10 @@ namespace DotnetAdventures.Pages
                     {
                         Result = Number1.Value / Number2.Value;
                     }
-                    // TODO handle divide by zero`
                     break;
             }
+
+            return Page();
         }
     }
 }
