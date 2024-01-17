@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CalculatorAdventure.Pages
+namespace CalculatorWebAdventure.Pages
 {
     public class CalculatorModel : PageModel
     {
